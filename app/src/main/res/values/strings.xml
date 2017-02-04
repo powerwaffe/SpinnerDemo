@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SpinnerDemo</string>
+    <string-array name="fruitArray">
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Orange</item>
+    </string-array>
+</resources>
