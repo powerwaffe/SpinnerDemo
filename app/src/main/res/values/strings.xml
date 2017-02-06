@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">SpinnerDemo</string>
+    <string name="select_a_fruit">Select a Fruit</string>
+    <string name="your_selection_here">YOUR SELECTION HERE</string>
     <string-array name="fruitArray">
         <item>Apple</item>
         <item>Banana</item>

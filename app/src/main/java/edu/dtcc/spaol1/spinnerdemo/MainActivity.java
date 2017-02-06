@@ -46,9 +46,6 @@ public class  MainActivity extends AppCompatActivity
             // On selecting a spinner item
             String item = parent.getItemAtPosition(pos).toString();
 
-            // Showing selected spinner item as a toast
-            Toast.makeText(parent.getContext(), "Selected: " + item, Toast.LENGTH_LONG).show();
-
             // Show item selected in textView
             textView.setText(item);
         }
