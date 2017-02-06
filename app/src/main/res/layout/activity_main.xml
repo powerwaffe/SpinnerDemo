@@ -8,27 +8,36 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
     tools:context="edu.dtcc.spaol1.spinnerdemo.MainActivity">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Select a Fruit" />
 
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
         android:layout_alignParentStart="true"
         android:layout_marginTop="25dp"
+        android:gravity="center"
         android:id="@+id/fruitSpinner" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a Fruit"
+        android:layout_alignParentTop="true"
+        android:textColor="#666666"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|bold"
+        android:textSize="21sp" />
 
     <TextView
         android:text="YOUR SELECTION HERE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/displaySelection"
         android:layout_below="@+id/fruitSpinner"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="20dp"
-        android:id="@+id/displaySelection" />
+        android:layout_centerHorizontal="true"
+        android:textColor="#666666"
+        android:layout_marginTop="172dp"
+        android:textStyle="normal|bold"
+        android:textSize="21sp" />
 </RelativeLayout>
